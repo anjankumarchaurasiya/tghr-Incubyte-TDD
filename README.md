@@ -52,20 +52,27 @@ Download Node.js from [nodejs.org](https://nodejs.org/). npm will be installed a
     - npm test
 
 
-## Outpout of - (npm test) 
-PASS  tests/stringCalculator.test.ts
-  String Calculator
-    √ should return 0 for an empty string (6 ms)
-    √ should return the number itself for a single number (1 ms)
-    √ should return the sum of two numbers (1 ms)
-    √ should return the sum of multiple numbers (1 ms)
-    √ should handle newlines as delimiters
-    √ should support custom delimiters
-    √ should throw an error for negative numbers (21 ms)
-    √ should show all negative numbers in the error message (2 ms)
+## **Output of - (npm test)** 
 
-Test Suites: 1 passed, 1 total
-Tests:       8 passed, 8 total
-Snapshots:   0 total
-Time:        4.904 s, estimated 6 s
-Ran all test suites.
+   PASS  tests/stringCalculator.test.ts
+    Test Suite        | Test Case                                             | Result | Time
+   -------------------------------------------------------------------------------------------
+   String Calculator | should return 0 for an empty string                   | Passed | 6 ms
+   String Calculator | should return the number itself for a single number    | Passed | 1 ms
+   String Calculator | should return the sum of two numbers                  | Passed | 1 ms
+   String Calculator | should return the sum of multiple numbers             | Passed | 1 ms
+   String Calculator | should handle newlines as delimiters                  | Passed | 
+   String Calculator | should support custom delimiters                      | Passed | 
+   String Calculator | should throw an error for negative numbers            | Passed | 21 ms
+   String Calculator | should show all negative numbers in the error message | Passed | 2 ms
+   
+   ------------------------------------------------------------
+   | Metric       | Result                                      |
+   ------------------------------------------------------------
+   | Test Suites  | 1 passed, 1 total                           |
+   | Tests        | 8 passed, 8 total                           |
+   | Snapshots    | 0 total                                     |
+   | Time         | 4.904 s, estimated 6 s                      |
+   | Status       | Ran all test suites                         |
+   ------------------------------------------------------------
+
